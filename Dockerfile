@@ -42,7 +42,7 @@ RUN set -ex; \
   chmod 755 base/bin/bash; \
   ln -fs ../../bin/bash base/usr/bin/bash
 
-# Pull TLS certifactes, timezone info, and minimal linked libraries from amazon
+# Pull TLS certificates, timezone info, and minimal linked libraries from amazon.
 FROM amazonlinux:2
 RUN set -ex; \
   mkdir -p base/usr/bin base/etc base/usr/share base/lib64; \
