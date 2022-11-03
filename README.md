@@ -30,3 +30,8 @@ Connect the relay with the following docker command.
 
 The relay container is under 25MB.  This is a proof of concept designed to be
 run alongside another service with secrets provided in the environment.
+
+This Docker image is designed to be built on the following architectures:
+
+* `x86_64` or `amd64`
+* `aarch64` or `arm64`
