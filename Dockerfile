@@ -60,4 +60,4 @@ ENTRYPOINT ["/bin/dumb-init", "--"]
 USER nonroot
 ENV HOME=/home/nonroot USER=nonroot LD_LIBRARY_PATH=/lib64 PATH=/bin:/sbin:/usr/bin:/usr/sbin
 WORKDIR /home/nonroot
-CMD ["/bin/bash", "-exc", "/bin/relay forward -b ${RELAY_BUCKET}"]
+CMD ["/bin/bash", "-exc", "exec relay forward -b ${RELAY_BUCKET}"]
