@@ -2,6 +2,9 @@
 
 This is a minimal docker image for https://webhookrelay.com/
 
+A minimal sidecar container meant to run a webhook relay for a networked docker
+service.
+
 # Credentials and setup
 
 Create a file named `.env` at the root of this repo.  Populate it with the
